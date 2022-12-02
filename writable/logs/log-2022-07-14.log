@@ -1,0 +1,89 @@
+CRITICAL - 2022-07-14 14:22:57 --> Invalid file: administrator/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/login', [], true)
+ 3 APPPATH\Controllers\Credentials.php(16): view('administrator/login', [])
+ 4 APPPATH\Controllers\Credentials.php(9): App\Controllers\Credentials->_loadDefaultView([], 'login')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Credentials->login()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Credentials))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:23:30 --> Invalid file: administrator/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/login', [], true)
+ 3 APPPATH\Controllers\Credentials.php(16): view('administrator/login', [])
+ 4 APPPATH\Controllers\Credentials.php(9): App\Controllers\Credentials->_loadDefaultView([], 'login')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Credentials->login()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Credentials))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:23:41 --> Invalid file: administrator/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/login', [], true)
+ 3 APPPATH\Controllers\Credentials.php(16): view('administrator/login', [])
+ 4 APPPATH\Controllers\Credentials.php(9): App\Controllers\Credentials->_loadDefaultView([], 'login')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Credentials->login()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Credentials))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 14:25:21 --> Invalid file: administrator/login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/login.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/login', [], true)
+ 3 APPPATH\Controllers\Credentials.php(10): view('administrator/login')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Credentials->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Credentials))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-14 15:30:07 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-07-14 16:46:32 --> Trying to get property 'username' of non-object
+in APPPATH\Views\administrator\user\edit.php on line 28.
+ 1 APPPATH\Views\administrator\user\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', 'APPPATH\\Views\\administrator\\user\\edit.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrator\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/user/edit', [], true)
+ 5 APPPATH\Controllers\User.php(48): view('administrator/user/edit', [...])
+ 6 APPPATH\Controllers\User.php(40): App\Controllers\User->_loadDefaultView([...], 'edit')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 16:47:04 --> Call to undefined method App\Models\UserModel::asOvject
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\User.php(40): CodeIgniter\Model->__call('asOvject', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 16:48:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\administrator\user\edit.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/user/edit', [], true)
+ 4 APPPATH\Controllers\User.php(48): view('administrator/user/edit', [...])
+ 5 APPPATH\Controllers\User.php(40): App\Controllers\User->_loadDefaultView([...], 'edit')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 17:00:15 --> syntax error, unexpected 'function' (T_FUNCTION), expecting '('
+in APPPATH\Controllers\User.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\User')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\User', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 17:23:17 --> Call to undefined method CodeIgniter\Router\RouteCollection::resources()
+in APPPATH\Config\Routes.php on line 47.
+ 1 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(48): CodeIgniter\Router\RouteCollection->group('FCPATH\\administrator', Object(Closure))
+ 3 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 7 ROOTPATH\spark(86): CodeIgniter\CLI\Console->run()

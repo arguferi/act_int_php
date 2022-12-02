@@ -1,0 +1,199 @@
+CRITICAL - 2022-07-18 10:10:17 --> Undefined variable: data
+in APPPATH\Controllers\User.php on line 38.
+ 1 APPPATH\Controllers\User.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\User.php', 38, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:11:19 --> Undefined property: stdClass::$delete_at
+in APPPATH\Views\administrator\user\index.php on line 111.
+ 1 APPPATH\Views\administrator\user\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$delete_at', 'APPPATH\\Views\\administrator\\user\\index.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrator\\user\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/user/index', [], true)
+ 5 APPPATH\Controllers\User.php(132): view('administrator/user/index', [...])
+ 6 APPPATH\Controllers\User.php(38): App\Controllers\User->_loadDefaultView([...], 'index')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:11:22 --> Undefined property: stdClass::$delete_at
+in APPPATH\Views\administrator\user\index.php on line 111.
+ 1 APPPATH\Views\administrator\user\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$delete_at', 'APPPATH\\Views\\administrator\\user\\index.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrator\\user\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/user/index', [], true)
+ 5 APPPATH\Controllers\User.php(132): view('administrator/user/index', [...])
+ 6 APPPATH\Controllers\User.php(38): App\Controllers\User->_loadDefaultView([...], 'index')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:16:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(116): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->undelete('2')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:16:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(116): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->undelete('2')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:30:06 --> Undefined variable: id
+in APPPATH\Controllers\User.php on line 119.
+ 1 APPPATH\Controllers\User.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Controllers\\User.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->undelete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:30:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(120): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->undelete('2')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:10:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orLike('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('orLike', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:10:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orLike('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('orLike', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:10:56 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orLike('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('orLike', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:11:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orLike('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('orLike', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:11:46 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->orLike('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('orLike', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:12:44 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:12:54 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:13:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:13:32 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:13:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:14:48 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\laragon\www\adminBase\vendor\codeigniter4\framework\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('username', null)
+ 2 APPPATH\Controllers\User.php(135): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->search()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:45:23 --> Undefined variable: session
+in APPPATH\Views\administrator\templates\header.php on line 813.
+ 1 APPPATH\Views\administrator\templates\header.php(813): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Views\\administrator\\templates\\header.php', 813, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrator\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/templates/header', [], true)
+ 5 APPPATH\Controllers\Administrator.php(15): view('administrator/templates/header')
+ 6 APPPATH\Controllers\Administrator.php(9): App\Controllers\Administrator->_loadDefaultView([], 'index')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Administrator->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:46:01 --> Undefined variable: session
+in APPPATH\Views\administrator\templates\header.php on line 813.
+ 1 APPPATH\Views\administrator\templates\header.php(813): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Views\\administrator\\templates\\header.php', 813, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrator\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('administrator/templates/header', [], true)
+ 5 APPPATH\Controllers\Administrator.php(15): view('administrator/templates/header')
+ 6 APPPATH\Controllers\Administrator.php(9): App\Controllers\Administrator->_loadDefaultView([], 'index')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Administrator->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 11:48:21 --> Cannot declare class App\Filters\AuthRoleFilter, because the name is already in use
+in APPPATH\Filters\AuthItFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-18 11:48:21 --> Cannot declare class App\Filters\AuthRoleFilter, because the name is already in use
+in APPPATH\Filters\AuthItFilter.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-18 12:01:41 --> AuthItSuFilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthItSuFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('administrator/user/new')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('administrator/user/new', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 12:02:14 --> AuthItSuFilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthItSuFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('administrator/user/new')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('administrator/user/new', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
